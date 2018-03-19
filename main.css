@@ -1,0 +1,63 @@
+body {
+    background-color: grey;
+    font-family: Calibri;
+
+}.bodyContent {
+     background-color: whitesmoke;
+     width: 80%;
+     margin: 0 auto;
+     min-height: 1000px;
+ }
+
+.header{
+    background-color: whitesmoke;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align:  center;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    display: block;
+    margin: 30px;
+    font-size: 18px;
+    text-align: left;
+    text-indent: 30px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid grey;
+    background-color: whitesmoke;
+}
+
+.tab button {
+    font-size: 30px;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button.active {
+    background-color: whitesmoke;
+    display: block;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
