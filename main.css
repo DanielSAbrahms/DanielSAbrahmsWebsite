@@ -129,6 +129,20 @@ button {
     color: white;
 }
 
+.subtab button:hover {
+    color: #ffbb44;
+    border: 5px solid #ffffff;
+}
+
+.subtab button.active {
+    background-color: #ffbb44;
+    border: 5px solid #ffffff;
+}
+
+.subtab button.active:hover {
+    color: white;
+}
+
 .tabcontent {
     display: none;
     padding: 6px 12px;
