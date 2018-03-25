@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    font-family: "Arial Black", serif;
+    font-family: Lato, sans-serif;
     margin: 0;
 }
 header {
@@ -10,10 +10,12 @@ header {
 .headerLinks {
     text-align: right;
     margin: 5px 15px 0 15px;
+    color: white;
+    padding-right: 20px;
 }
 .headerTopName{
     background-color: black;
-    font-family: "Arial Black", serif;
+    font-family: inherit;
     font-size: 25pt;
     color: white;
     text-align: left;
@@ -45,10 +47,10 @@ header {
 }
 
 .img {
-    border-radius: 50%;
     max-width: 100%;
     height: auto;
     max-height: 300px;
+    margin: 10px;
 }
 .headerImage {
     opacity: 1;
@@ -60,7 +62,7 @@ header {
 }
 .bodyContent {
     background-color: white;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -76,13 +78,10 @@ header {
 }
 
 .bodyTextPortfolio {
-    margin: 1em;
+    margin: 0 100px 0 100px;
     padding-bottom:50px;
     display: inline-block;
 }
-
-
-
 
 .tab {
     overflow: hidden;
@@ -105,10 +104,13 @@ header {
 button {
     background-color: black;
     font-size: 2vw;
-    font-family: "Arial Black", serif;
+    font-family: inherit;
     float: left;
     color:white;
-    border: 5px solid #ffffff;
+    border-left: 5px solid #ffffff;
+    border-right: 5px solid #ffffff;
+    border-top: 0;
+    border-bottom: 0;
     cursor: pointer;
     padding: 5px 32px;
     width: 25%;
@@ -117,12 +119,10 @@ button {
 
 .tab button:hover {
     color: #ffbb44;
-    border: 5px solid #ffffff;
 }
 
 .tab button.active {
     background-color: #ffbb44;
-    border: 5px solid #ffffff;
 }
 
 .tab button.active:hover {
@@ -131,12 +131,10 @@ button {
 
 .subtab button:hover {
     color: #ffbb44;
-    border: 5px solid #ffffff;
 }
 
 .subtab button.active {
     background-color: #ffbb44;
-    border: 5px solid #ffffff;
 }
 
 .subtab button.active:hover {
@@ -159,22 +157,33 @@ button {
 p {
     display: block;
     margin: 30px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
     text-indent: 30px;
+}
+
+strong {
+    font-size: 24px;
 }
 
 h2 {
     margin: 0;
 }
 
+h3 {
+    font-size: 24px;
+}
+
 a {
-    color: white;
-    padding-right: 20px;
+    color:inherit;
 }
 a:hover {
     color: #ffbb44;
     text-decoration:none;
     cursor:pointer;
+}
+
+hr {
+    border-radius: 90%;
 }
 
